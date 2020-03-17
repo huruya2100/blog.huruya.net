@@ -94,7 +94,7 @@ Opusが使えるというのもだいぶ大きなポイントにはなりそう�
 
 # 余談
 
-[https://twitter.com/huruya2100/status/1132588711374233600:embed#MarkDownでブログが書きたい令和元年]
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">MarkDownでブログが書きたい令和元年</p>&mdash; huruya (@huruya2100) <a href="https://twitter.com/huruya2100/status/1132588711374233600?ref_src=twsrc%5Etfw">May 26, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 今回はこれがやりたかったから書いたもので、
 最近は授業ノートもMarkdownで書いているので割と親しんでおこう！という企画でもあった。
