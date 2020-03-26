@@ -128,9 +128,9 @@ plugins:
     back-to-top: true
     # Google Analytics plugin settings
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
-    google-analytics:
+    google-analytics: UA-161966239-1
         # Google Analytics tracking id
-        tracking_id: 
+        tracking_id: UA-161966239-1
     # Hotjar user feedback plugin
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Hotjar
     hotjar:
