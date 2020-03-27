@@ -8,7 +8,8 @@ version: 2.6.0
 canonical_url: 
 
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: /images/logo.svg
+logo: 
+ text: huruyaの雑記帳
 # Open Graph metadata
 # https://hexo.io/docs/helpers.html#open-graph
 open_graph:
@@ -26,7 +27,6 @@ open_graph:
 navbar:
     # Navigation bar menu links
     menu:
-        huruyaの雑記帳: /
         Archives: /archives
         #Categories: /categories
         #Tags: /tags
@@ -99,7 +99,7 @@ widgets:
         # Links to be shown in the links widget
         links:
             ../: 'https://huruya.net'
-            リンク切れでお困りの方はこちらへ: 'http://blog2.huruya.net'
+            リンク切れはこちらへ: 'http://blog2.huruya.net'
             huruya2100 - Twitter: 'https://twitter.com/huruya2100'
     -
         # Widget name
