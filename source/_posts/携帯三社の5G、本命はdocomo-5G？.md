@@ -1,12 +1,12 @@
 ---
-title: 携帯三社の5G、docomo 5Gが本命？
+title: 携帯三社の5G、本命はdocomo >>5G？
 date: 2020-03-25 20:18:07
 tags: 
     - tech
     - mobile
 thumbnail: /image/thumbnails/docomo-5G.png
 ---
-携帯3社がが今週(docomo 25日、au 26日、SoftBank 27日)5Gサービスを開始する、または既にしているわけですが、その3つを順繰りに見ていきます。
+携帯3社がが今週(docomo 25日、au 26日、SoftBank 27日)5Gサービスを開始する、または既にしているわけですが、その3つを順繰りに見ていこうという企画です。
 <!-- more -->
 # 各社のプラン
 ## Softbank 5G
