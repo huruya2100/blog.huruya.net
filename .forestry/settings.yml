@@ -9,6 +9,7 @@ sections:
   label: Source
   create: all
   match: "**/*"
+  new_doc_ext: ".md"
 upload_dir: source/image
 public_path: image
 front_matter_path: ''
