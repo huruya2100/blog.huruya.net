@@ -9,8 +9,8 @@ sections:
   label: Source
   create: all
   match: "**/*"
-upload_dir: uploads
-public_path: "/source/image"
+upload_dir: source/image
+public_path: image
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year::month::day:-:filename:"
