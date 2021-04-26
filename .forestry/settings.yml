@@ -5,11 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: source/image/thumbnails
+  label: thumbnails
+  create: all
+  match: "**/*"
+- type: directory
   path: source/_posts
   label: Source
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: source/image
 public_path: image
 front_matter_path: ''
