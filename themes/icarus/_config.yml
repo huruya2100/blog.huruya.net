@@ -29,7 +29,7 @@ navbar:
     menu:
         Archives: /archives
         #Categories: /categories
-        #Tags: /tags
+        Tags: /tags
         #About: /about
 # Footer section link settings
 #footer:
@@ -68,7 +68,8 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
 comment:
     # Name of the comment plugin
-    type: 
+    type: disqus
+    shortname: blog-huruya
 
 # Share plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
@@ -114,7 +115,7 @@ widgets:
 # Other plugin settings
 plugins:
     # Enable page animations
-    animejs: false
+    animejs: true
     # Enable the lightGallery and Justified Gallery plugins
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/gallery-plugin/
     gallery: true
