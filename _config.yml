@@ -4,9 +4,9 @@
 
 # Site
 title: huruyaの雑記帳
-subtitle: 日常系ブログ
-description: ''
-keywords:
+subtitle: huruyaの雑記帳
+description: '日常系ブログ'
+keywords: huruya, huruya2100, huruyaの雑記帳, huruyaのブログ, huruyaの日記, huruyaの日常, huruyaの趣味, huruyaの生活, huruyaの考え, huruyaの感じ, huruyaの気持ち, huruyaの思い, huruyaの記録, huruyaの記憶, huruyaの記述
 author: huruya
 language: ja
 timezone: 'Asia/Tokyo'
@@ -99,3 +99,4 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+

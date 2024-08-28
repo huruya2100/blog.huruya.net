@@ -18,9 +18,9 @@ open_graph:
     # Facebook Admin ID
     fb_admins: 
     # Twitter ID
-    twitter_id: 
+    twitter_id: huruya2100
     # Twitter site
-    twitter_site: 
+    twitter_site: x.com/huruya2100
     # Google+ profile link
     google_plus: 
 # Navigation bar link settings
@@ -129,9 +129,8 @@ plugins:
     back-to-top: true
     # Google Analytics plugin settings
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
-    google-analytics: 
-        # Google Analytics tracking id
-        tracking_id: UA-161966239-1
+    google-analytics:
+      tracking_id: G-GXTE5GZZPW
     # Hotjar user feedback plugin
     # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Hotjar
     hotjar:
@@ -151,3 +150,4 @@ providers:
     fontcdn: google
     # Name or URL of the webfont Icon CDN provider
     iconcdn: fontawesome
+
