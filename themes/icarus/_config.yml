@@ -28,9 +28,10 @@ navbar:
     # Navigation bar menu links
     menu:
         Archives: /archives
-        #Categories: /categories
+        Categories: /categories
         Tags: /tags
         #About: /about
+        免責事項: /1970/01/01/免責事項/
 # Footer section link settings
 #footer:
     # Links to be shown on the right of the footer section
