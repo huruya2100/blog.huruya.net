@@ -1,5 +1,10 @@
 name = "blog-huruya-net"
 compatibility_date = "2026-07-05"
+workers_dev = false
+
+[[routes]]
+pattern = "blog.huruya.net"
+custom_domain = true
 
 [assets]
 directory = "./dist"
