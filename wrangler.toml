@@ -1,0 +1,6 @@
+name = "blog-huruya-net"
+compatibility_date = "2026-07-05"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"

@@ -1,29 +1,43 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "blog-huruya-net",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
-  },
-  "hexo": {
-    "version": "7.3.0"
+    "dev": "astro dev",
+    "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
+    "preview": "astro preview",
+    "sync": "astro sync",
+    "astro": "astro",
+    "check": "astro check",
+    "deploy": "astro build && wrangler pages deploy dist --project-name blog-huruya-net"
   },
   "dependencies": {
-    "bulma-stylus": "0.8.0",
-    "deepmerge": "^4.3.1",
-    "hexo": "^7.1.1",
-    "hexo-component-inferno": "^3.1.0",
-    "hexo-log": "^4.1.0",
-    "hexo-pagination": "^3.0.0",
-    "hexo-renderer-inferno": "^1.0.2",
-    "hexo-renderer-stylus": "^3.0.1",
-    "hexo-util": "^3.2.0",
-    "inferno": "^8.2.3",
-    "inferno-create-element": "^8.2.3",
-    "moment": "^2.30.1",
-    "semver": "^7.5.4"
+    "@astrojs/mdx": "^6.0.1",
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.3",
+    "@tailwindcss/vite": "4.1.17",
+    "astro": "^6.4.2",
+    "dayjs": "^1.11.21",
+    "gray-matter": "^4.0.3",
+    "lodash.kebabcase": "^4.1.1",
+    "rehype-callouts": "^2.1.2",
+    "remark-collapse": "^0.1.2",
+    "remark-toc": "^9.0.0",
+    "satori": "^0.26.0",
+    "sharp": "^0.34.5",
+    "slugify": "^1.6.9",
+    "tailwindcss": "4.1.17"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/markdown-remark": "^7.2.0",
+    "@pagefind/default-ui": "^1.5.2",
+    "@shikijs/transformers": "^4.1.0",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/lodash.kebabcase": "^4.1.9",
+    "pagefind": "^1.5.2",
+    "typescript": "^6.0.3",
+    "wrangler": "^4.83.0"
   }
 }

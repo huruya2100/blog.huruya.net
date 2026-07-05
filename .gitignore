@@ -2,8 +2,9 @@
 Thumbs.db
 db.json
 *.log
+.astro/
+dist/
 node_modules/
-public/
 .deploy*/
 source/うちのスマートホーム.md
 source/_posts/うちのスマートホーム.md
