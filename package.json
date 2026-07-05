@@ -10,7 +10,7 @@
     "sync": "astro sync",
     "astro": "astro",
     "check": "astro check",
-    "deploy": "astro build && wrangler pages deploy dist --project-name blog-huruya-net"
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.1",
